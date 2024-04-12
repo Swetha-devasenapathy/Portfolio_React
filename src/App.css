@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    color: #111010;
+}
+
+.gradiant-text {
+    overflow: hidden;
+    border-right: 2px solid #fff;
+    text-wrap: nowrap;
+    display: inline-block;
+    width: max-content;
+    width: 0;
+}
+
+@keyframes typing-text {
+    from {
+        width: 0%;
+    } 
+    to {
+        width: 350px;
+    }
+}
+
+@keyframes typing-text {
+    to {
+        border-color: transparent;
+    }
+}
+
